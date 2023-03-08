@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+
+form {
+    background: #f0d43a;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-contenido {
+    font-size: 1.5rem;
+}
+
+#hombre {
+    margin-left: 2rem;
+}
+
+#mujer {
+    margin-left: 1rem;
+}
+
+label {
+    font-size: 1.4rem;
+}
+#genero{
+    font-size: 1.3rem;
+}
+input {
+    height: 1.4rem;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 1rem;
+    margin: 1.5rem 0 0 0;
+    width: 100%;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 0.3rem;
+    background: #1990b1;
+    color: white;
+    cursor: pointer;
+}
+
+textarea {
+    font-size: 1.5rem;
+    height: 5rem;
+}
+
+.informacion {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+h1 {
+    text-align: center;
+    padding: 0.3rem 0;
+    color: #3c10f5;
+}
+
+@media (min-width: 570px) {
+    form {
+        width: 35rem;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    label {
+        font-size: 1.6rem;
+        padding-top: 1rem;
+    }
+
+    .informacion {
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+
+    #genero,
+    textarea,
+    input{
+        border-radius: 0.2rem;
+        border: none;
+    }
+}
