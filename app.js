@@ -9,7 +9,7 @@ formulario.addEventListener('submit', (event) => {
     const intereses = document.getElementById('intereses').value;
 
     if (!nombre || !email || !contraseña || !genero || !intereses.trim().length) {
-        document.querySelector(".intereses").innerHTML = `Por favor, rellene todos los campos del formulario.`;
+        alert(`Por favor, rellene todos los campos del formulario.`);
     }
 
 });
